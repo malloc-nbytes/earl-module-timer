@@ -1,0 +1,6 @@
+[owner]
+name = "malloc-nbytes"
+github = "https://www.github.com/malloc-nbytes/earl-module-timer.git/"
+
+[config]
+prefix = "rltimer"
