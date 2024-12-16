@@ -1,17 +1,17 @@
-module ERTimer
+module RLTimer
 
 import "std/colors.rl"; as clrs
 import "std/time.rl"; as time
 import "std/utils.rl"; as utils
 
-#-- Name: Timer
+#-- Name: T
 #-- Parameter: hours: int
 #-- Parameter: mins: int
 #-- Parameter: secs: int
 #-- Description:
 #--   Creates a new `Timer` object that takes the starting
 #--   hours, minutes, and seconds.
-@pub class Timer [hours: int, mins: int, secs: int] {
+@pub class T [hours: int, mins: int, secs: int] {
     @const let colors = [
         clrs::Tfc.Green,
         clrs::Tfc.Yellow,
